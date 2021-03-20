@@ -1,0 +1,23 @@
+<div class="description">
+    <h1>Show All</h1>
+    <h3>Show all projects created.</h3>
+    <a class="button" href="/add">Add New</a>
+</div>
+<div class="showAll">
+    <table>
+        <tr>
+            <td class="title">Nome</td>
+            <td class="title">Ações</td>
+        </tr>
+
+    {{#data}}
+        <tr>
+            <td>{{categories}}</td>
+            <td>
+                <a href="editar/{{id}}" class="btnActions"><img src="/img/edit.svg" alt="Edit Categorie"></a>
+                <a href="deletar/{{id}}" class="btnActions"><img src="/img/delete.svg" alt="Delete"></a>
+            </td>
+        </tr>
+    {{/data}}
+    </table>
+</div>

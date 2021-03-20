@@ -1,0 +1,27 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniellPacheco/Crud-Nodejs.git"
+  },
+  "author": "Daniel Pacheco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniellPacheco/Crud-Nodejs/issues"
+  },
+  "homepage": "https://github.com/DaniellPacheco/Crud-Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
